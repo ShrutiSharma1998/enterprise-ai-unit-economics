@@ -1,0 +1,15 @@
+AI unit economics planning tool
+Copyright 2026 Shruti Sharma
+
+The workbook and build scripts in model/, and the browser calculator in app/, are licensed under the Apache
+License, Version 2.0 (see LICENSE). The written material (README.md, adoption/, docs/, evidence/, research/,
+spec/, validation/) is licensed under Creative Commons Attribution 4.0 International (see LICENSE-docs.md).
+
+app/js/vendor/xlsx.full.min.js is a third-party library, SheetJS (the "xlsx" package, version 0.18.5,
+https://sheetjs.com/), included unmodified. Copyright the SheetJS developers, licensed under the Apache
+License, Version 2.0; its own licence text is kept alongside it in app/js/vendor/xlsx-LICENSE.txt.
+
+Prices, figures and short quotations taken from providers and publishers remain the property of their owners
+and are cited to their sources in evidence/. Company and product names are trademarks of their owners; no
+provider endorses or is affiliated with this work. Built with AI assistance (Claude, Anthropic) under the
+project owner's direction. Provided as is, without warranty of any kind.

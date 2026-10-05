@@ -1,0 +1,19 @@
+# secrets and local config: never commit
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# private data: never commit
+data/private/
+
+# python bytecode and tooling
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+
+# operating system and Excel temporary files
+.DS_Store
+Thumbs.db
+~$*

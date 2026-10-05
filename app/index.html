@@ -1,0 +1,38 @@
+<!doctype html>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI unit economics calculator</title>
+<meta name="description" content="Estimate what an AI program costs across teams, layer by layer, with every number's evidence grade shown. Runs in your browser; nothing is sent anywhere.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="top-inner">
+    <div class="brand">
+      <h1>AI unit economics calculator</h1>
+      <p id="orgline">Preview 0.2. Fictional example loaded.</p>
+    </div>
+    <div class="kpis" id="kpis" aria-label="Headline result"></div>
+  </div>
+</header>
+<p class="sr-only" id="live" aria-live="polite"></p>
+<main class="layout">
+  <section id="inputs" aria-label="Inputs"></section>
+  <section id="results" aria-label="Results"></section>
+</main>
+<section class="layout" style="padding-top:0" id="evidence" aria-label="Assumptions and sources"></section>
+<footer>
+  <p>Copyright 2026 Shruti Sharma. Code under the Apache License 2.0; provided as is, without warranty. The example organization is fictional.
+  Prices are quoted from providers' public pages on the date shown; company and product names belong to their owners, and no provider endorses this work.
+  This page runs in your browser and sends nothing anywhere. Built with AI assistance (Claude, Anthropic) under the project owner's direction.</p>
+</footer>
+<script src="js/vendor/xlsx.full.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/xlsx-template.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
