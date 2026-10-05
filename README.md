@@ -2,6 +2,7 @@
 
 **What it is:** an Excel workbook, and a browser calculator built on the same model, that show an enterprise what an AI program will cost across its teams before it builds: setup, data readiness, inference, run and people costs, with break-even and sensitivity.
 **Headline finding:** only 11 of the 35 cost lines an enterprise faces can be defaulted from dated public prices; the rest need its own numbers. In the fictional worked example, one assumption decides whether a seat tool pays: the share of claimed time savings that is actually realised. The same product nets -$3.3M or +$2.0M depending only on minutes saved per use.
+**Try the calculator now:** https://shrutisharma1998.github.io/enterprise-ai-unit-economics/app/ (runs entirely in your browser; nothing you enter is sent anywhere).
 **How to open it:** for the workbook, open `model/ai-unit-economics-v0.1.xlsx` in Excel, start at the README sheet, then Summary. For the calculator, serve the folder (`python -m http.server 8000`) and browse to `http://localhost:8000/app/`; it runs entirely in your browser and can export and re-import a pre-filled Excel template for detailed input. Everything in the example is fictional.
 
 Status: workbook version 0.1; browser calculator preview 0.2. A fictional worked example, not validated against a real enterprise.
